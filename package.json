@@ -40,15 +40,12 @@
     "test": "typedoc src/** --plugin ./lib/index.js --themeColor '#cb9820'"
   },
   "dependencies": {
-    "@material/material-color-utilities": "^0.2.7"
+    "@material/material-color-utilities": "^0.2.7",
+    "@vercel/analytics": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
-    "typedoc": "^0.25.3",
     "typescript": "^5.2.2"
-  },
-  "peerDependencies": {
-    "typedoc": "^0.25.3"
   },
   "engines": {
     "node": ">=18.0.0",
