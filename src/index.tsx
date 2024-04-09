@@ -27,6 +27,7 @@ export function load(app: Application) {
 				/>
 			</script>
 			<script defer src="/_vercel/insights/script.js"></script>
+			<title>Palwrapper Documentation</title>
 		</>
 	));
 
